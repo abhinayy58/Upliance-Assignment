@@ -46,8 +46,8 @@ export default function CreatePage() {
   };
 
   return (
-    <Grid container spacing={2}>
-      <Grid item xs={12} md={8}>
+    <Grid container spacing={2} >
+      <Grid item xs={12} md={8} >
         <Paper sx={{ p: 2 }}>
           <Box sx={{ display: "flex", gap: 2, mb: 2 }}>
             <TextField

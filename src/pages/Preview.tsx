@@ -21,7 +21,7 @@ function evaluateDerived(expression: string, fields: Record<string, any>) {
     // eslint-disable-next-line no-new-func
     const fn = new Function("fields", "Math", `return (${expression})`);
     return fn(fields, Math);
-  } catch (e:unknown) {
+  } catch (e) {
     console.error(e.message);
     return "";
   }

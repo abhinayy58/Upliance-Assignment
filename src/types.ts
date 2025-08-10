@@ -20,7 +20,7 @@ export type Field = {
   type: FieldType;
   label: string;
   required: boolean;
-  defaultValue?: unknown;
+  defaultValue?: any;
   options?: string[];
   validation?: ValidationRule;
   derived?: {
